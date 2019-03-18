@@ -1,6 +1,7 @@
 //! This crate provides x86_64 specific functions and data structures,
 //! and access to various system registers.
 
+#![feature(try_from)]
 #![feature(const_fn)]
 #![feature(asm)]
 #![feature(abi_x86_interrupt)]
